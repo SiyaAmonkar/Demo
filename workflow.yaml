@@ -3,7 +3,7 @@ kind: Workflow
 metadata:
   name: workflow-template-hello-world
   annotations:
-    argocd.argoproj.io/hook: Sync
+    argocd.argoproj.io/hook: PostSync
   
 spec:
   entrypoint: whalesay-template
