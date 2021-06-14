@@ -2,8 +2,8 @@ apiVersion: argoproj.io/v1alpha1
 kind: Workflow
 metadata:
   name: workflow-template-hello-world
-  annotations:
-    argocd.argoproj.io/hook: PostSync
+  #annotations:
+    #argocd.argoproj.io/hook: PostSync
   
 spec:
   entrypoint: whalesay-template
