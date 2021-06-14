@@ -10,6 +10,6 @@ spec:
   arguments:
     parameters:
       - name: message
-        value: "hellloo world"
+        value: "hellloo world..."
   workflowTemplateRef:
     name: workflow-template-submittable
